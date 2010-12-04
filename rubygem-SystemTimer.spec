@@ -2,7 +2,7 @@
 
 Name:       rubygem-%{oname}
 Version:    1.2
-Release:    %mkrel 1
+Release:    %mkrel 2
 Summary:    Set a Timeout based on signals, which are more reliable than Timeout
 Group:      Development/Ruby
 License:    GPLv2+ or Ruby License
@@ -11,6 +11,7 @@ Source0:    http://rubygems.org/downloads/%{oname}-%{version}.gem
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:   rubygems
 BuildRequires: rubygems
+BuildRequires: ruby-devel
 Provides:   rubygem(%{oname}) = %{version}
 
 %description
