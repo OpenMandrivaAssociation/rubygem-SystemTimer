@@ -6,7 +6,7 @@ Release:    %mkrel 2
 Summary:    Set a Timeout based on signals, which are more reliable than Timeout
 Group:      Development/Ruby
 License:    GPLv2+ or Ruby License
-URL:        http://ph7spot.com/musings/system-timer
+URL:        https://ph7spot.com/musings/system-timer
 Source0:    http://rubygems.org/downloads/%{oname}-%{version}.gem
 BuildRoot:  %{_tmppath}/%{name}-%{version}-%{release}-root
 Requires:   rubygems
